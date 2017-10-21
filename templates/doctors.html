@@ -75,11 +75,734 @@
     <section class="list-content">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    Filters
+                <div class="col-md-4 p-t-md">
+                    <section class="locations m-b-sm">
+                        <input placeholder="Enter Keywords" id="" name="" type="text" value="" data-id="search-query" class="form-control">
+                    </section>
+                
+                    <section class="locations m-b-sm">
+                        <input placeholder="Enter location" id="" name="" type="text" value="" class="form-control">
+                    </section>
+                
+                    <section class="locations m-b-sm">
+                        <input placeholder="Enter skills" id="" name="" type="text" value="" class="form-control">
+                    </section>
+
+                    <section class="profession">
+                        <!-- <h3 class="titlelist">Profession</h3>
+                        <input placeholder="Search by Profession" id="searchOptions_LocalityName" name="searchOptions.LocalityName" type="text" value="" class="form-control" autocomplete="off">	 -->
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#profession" aria-expanded="false" aria-controls="collapseOne">
+                                        Specialities
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="profession" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <ul class="profession-filter">
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(101)" value="101">
+                                            <label for="m(101)">Architects</label>
+                                            <span>(168004)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(107)" value="107">
+                                            <label for="m(107)">Interior designers</label>
+                                            <span>(48637)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(108)" value="108">
+                                            <label for="m(108)">Designers</label>
+                                            <span>(17819)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(105)" value="105">
+                                            <label for="m(105)">Landscapers/Agronomists</label>
+                                            <span>(3175)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(115)" value="115">
+                                            <label for="m(115)">Urban Designers</label>
+                                            <span>(6720)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(100)" value="100">
+                                            <label for="m(100)">Engineers</label>
+                                            <span>(78645)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(142)" value="142">
+                                            <label for="m(142)">Structural engineers</label>
+                                            <span>(5970)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(143)" value="143">
+                                            <label for="m(143)">Building services engineers</label>
+                                            <span>(7548)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(144)" value="144">
+                                            <label for="m(144)">Geotechnical engineers</label>
+                                            <span>(1347)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(104)" value="104">
+                                            <label for="m(104)">Geologists</label>
+                                            <span>(2692)</span>
+                                        </li>
+                                
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(102)" value="102">
+                                            <label for="m(102)">Draughtsmen</label>
+                                            <span>(52014)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(103)" value="103">
+                                            <label for="m(103)">Building surveyors</label>
+                                            <span>(14601)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(145)" value="145">
+                                            <label for="m(145)">CAD/BIM designers</label>
+                                            <span>(3365)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(113)" value="113">
+                                            <label for="m(113)">Photographers</label>
+                                            <span>(4505)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(117)" value="117">
+                                            <label for="m(117)">Electricians</label>
+                                            <span>(5089)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(116)" value="116">
+                                            <label for="m(116)">Lighting Technicians</label>
+                                            <span>(739)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(120)" value="120">
+                                            <label for="m(120)">Home Automation Installers</label>
+                                            <span>(611)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(118)" value="118">
+                                            <label for="m(118)">PV/Solar Thermal Installers</label>
+                                            <span>(993)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(119)" value="119">
+                                            <label for="m(119)">HVAC Installers</label>
+                                            <span>(3334)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(126)" value="126">
+                                            <label for="m(126)">Plumbers</label>
+                                            <span>(696)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(134)" value="134">
+                                            <label for="m(134)">Building Contractors</label>
+                                            <span>(26150)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(136)" value="136">
+                                            <label for="m(136)">General Contracting Firms</label>
+                                            <span>(23304)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(146)" value="146">
+                                            <label for="m(146)">Masons</label>
+                                            <span>(1090)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(121)" value="121">
+                                            <label for="m(121)">Drywall installers</label>
+                                            <span>(433)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(122)" value="122">
+                                            <label for="m(122)">Painters</label>
+                                            <span>(977)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(125)" value="125">
+                                            <label for="m(125)">Tilers</label>
+                                            <span>(534)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(130)" value="130">
+                                            <label for="m(130)">Window Fitters</label>
+                                            <span>(1036)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(123)" value="123">
+                                            <label for="m(123)">Carpenters/Cabinet-makers</label>
+                                            <span>(1046)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(124)" value="124">
+                                            <label for="m(124)">Smiths</label>
+                                            <span>(532)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(129)" value="129">
+                                            <label for="m(129)">Hardwood Installers</label>
+                                            <span>(356)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(127)" value="127">
+                                            <label for="m(127)">Glaziers</label>
+                                            <span>(406)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(132)" value="132">
+                                            <label for="m(132)">Marble craftsmen</label>
+                                            <span>(437)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(131)" value="131">
+                                            <label for="m(131)">Upholsterers</label>
+                                            <span>(531)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(128)" value="128">
+                                            <label for="m(128)">Gardeners/Plant nursery workers</label>
+                                            <span>(490)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(150)" value="150">
+                                            <label for="m(150)">Waterproofing contractors</label>
+                                            <span>(38)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(149)" value="149">
+                                            <label for="m(149)">Swimming pool contractors</label>
+                                            <span>(55)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(138)" value="138">
+                                            <label for="m(138)">Service company</label>
+                                            <span>(10975)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(151)" value="151">
+                                            <label for="m(151)">Land reclamation/waste disposal firms</label>
+                                            <span>(49)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(152)" value="152">
+                                            <label for="m(152)">Movers</label>
+                                            <span>(49)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(153)" value="153">
+                                            <label for="m(153)">Home staging</label>
+                                            <span>(169)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(154)" value="154">
+                                            <label for="m(154)">Real Estate agency</label>
+                                            <span>(434)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(147)" value="147">
+                                            <label for="m(147)">Conservators/Restorers</label>
+                                            <span>(878)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(137)" value="137">
+                                            <label for="m(137)">Resellers/Dealers/Agents</label>
+                                            <span>(23522)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(148)" value="148">
+                                            <label for="m(148)">Artists/Craftsmen</label>
+                                            <span>(3168)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(133)" value="133">
+                                            <label for="m(133)">Manufacturers</label>
+                                            <span>(44379)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(135)" value="135">
+                                            <label for="m(135)">Public agency</label>
+                                            <span>(17010)</span>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="JobIds" id="m(106)" value="106">
+                                            <label for="m(106)">Team</label>
+                                            <span>(306591)</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#experience" aria-expanded="false" aria-controls="collapseTwo">
+                                        Location
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="experience" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <ul class="">
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(233)" value="233">
+                                                <label for="h(233)">Åland Islands</label>
+                                                <span>(24)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(31)" value="31">
+                                                <label for="h(31)">Albania</label>
+                                                <span>(1183)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(53)" value="53">
+                                                <label for="h(53)">Andorra</label>
+                                                <span>(86)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(29)" value="29">
+                                                <label for="h(29)">Austria</label>
+                                                <span>(3296)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(68)" value="68">
+                                                <label for="h(68)">Belarus</label>
+                                                <span>(305)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(27)" value="27">
+                                                <label for="h(27)">Belgium</label>
+                                                <span>(5051)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(37)" value="37">
+                                                <label for="h(37)">Bosnia</label>
+                                                <span>(249)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(18)" value="18">
+                                                <label for="h(18)">Bulgaria</label>
+                                                <span>(1144)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(30)" value="30">
+                                                <label for="h(30)">Croatia</label>
+                                                <span>(987)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(17)" value="17">
+                                                <label for="h(17)">Czech Rep.</label>
+                                                <span>(1766)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(86)" value="86">
+                                                <label for="h(86)">Denmark</label>
+                                                <span>(1580)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(12)" value="12">
+                                                <label for="h(12)">Estonia</label>
+                                                <span>(251)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(217)" value="217">
+                                                <label for="h(217)">Faroe Islands</label>
+                                                <span>(5)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(11)" value="11">
+                                                <label for="h(11)">Finland</label>
+                                                <span>(711)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(3)" value="3">
+                                                <label for="h(3)">France</label>
+                                                <span>(37749)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(5)" value="5">
+                                                <label for="h(5)">Germany</label>
+                                                <span>(23029)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(99)" value="99">
+                                                <label for="h(99)">Gibraltar</label>
+                                                <span>(8)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(34)" value="34">
+                                                <label for="h(34)">Greece</label>
+                                                <span>(4285)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(103)" value="103">
+                                                <label for="h(103)">Greenland</label>
+                                                <span>(4)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(19)" value="19">
+                                                <label for="h(19)">Hungary</label>
+                                                <span>(1127)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(7)" value="7">
+                                                <label for="h(7)">Iceland</label>
+                                                <span>(114)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(6)" value="6">
+                                                <label for="h(6)">Ireland</label>
+                                                <span>(684)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(208)" value="208">
+                                                <label for="h(208)">Isle of Man</label>
+                                                <span>(1)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(1)" value="1">
+                                                <label for="h(1)">Italy</label>
+                                                <span>(581289)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(234)" value="234">
+                                                <label for="h(234)">Jersey</label>
+                                                <span>(12)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(245)" value="245">
+                                                <label for="h(245)">Kosovo</label>
+                                                <span>(153)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(13)" value="13">
+                                                <label for="h(13)">Latvia</label>
+                                                <span>(481)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(125)" value="125">
+                                                <label for="h(125)">Liechtenstein</label>
+                                                <span>(36)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(14)" value="14">
+                                                <label for="h(14)">Lithuania</label>
+                                                <span>(769)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(25)" value="25">
+                                                <label for="h(25)">Luxembourg</label>
+                                                <span>(486)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(46)" value="46">
+                                                <label for="h(46)">Malta</label>
+                                                <span>(361)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(138)" value="138">
+                                                <label for="h(138)">Moldova</label>
+                                                <span>(384)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(139)" value="139">
+                                                <label for="h(139)">Monaco</label>
+                                                <span>(138)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(221)" value="221">
+                                                <label for="h(221)">Montenegro</label>
+                                                <span>(194)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(26)" value="26">
+                                                <label for="h(26)">Netherlands</label>
+                                                <span>(4533)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(9)" value="9">
+                                                <label for="h(9)">Norway</label>
+                                                <span>(931)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(16)" value="16">
+                                                <label for="h(16)">Poland</label>
+                                                <span>(3130)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(24)" value="24">
+                                                <label for="h(24)">Portugal</label>
+                                                <span>(17626)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(127)" value="127">
+                                                <label for="h(127)">Republic of Macedonia</label>
+                                                <span>(399)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(20)" value="20">
+                                                <label for="h(20)">Romania</label>
+                                                <span>(2553)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(15)" value="15">
+                                                <label for="h(15)">Russian Federation</label>
+                                                <span>(12772)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(35)" value="35">
+                                                <label for="h(35)">San Marino</label>
+                                                <span>(256)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(210)" value="210">
+                                                <label for="h(210)">Serbia</label>
+                                                <span>(1246)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(169)" value="169">
+                                                <label for="h(169)">Slovakia</label>
+                                                <span>(740)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(21)" value="21">
+                                                <label for="h(21)">Slovenia</label>
+                                                <span>(777)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(4)" value="4">
+                                                <label for="h(4)">Spain</label>
+                                                <span>(26709)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(10)" value="10">
+                                                <label for="h(10)">Sweden</label>
+                                                <span>(1665)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(28)" value="28">
+                                                <label for="h(28)">Switzerland</label>
+                                                <span>(6518)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(185)" value="185">
+                                                <label for="h(185)">Ukraine</label>
+                                                <span>(2776)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(8)" value="8">
+                                                <label for="h(8)">United Kingdom</label>
+                                                <span>(17650)</span>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="NationIds" id="h(36)" value="36">
+                                                <label for="h(36)">Vatican City</label>
+                                                <span>(6)</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-                <div class="col-md-8">
-                    Doctor Cards
+                <div class="col-md-8 p-t-md">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="people text-center">
+                                <div>
+                                    <figure>
+                                        <div class="profile-pic">
+                                            <a href=""><img alt="profile image" src="../media/doctor1.png"> <i></i></a>
+                                        </div>
+                                        <figcaption>
+                                            <ul class="people-info">
+                                                <li class="name"><a href=""><b>Dr. Martin Sugar</b></a></li>
+                                                <li class="job">Psychiatrist</li>
+                                                <li class="location">Viena</li>
+                                            </ul>
+                                            <div class="viewinfo">						
+                                                <a href="" class="btn btn-primary"><i class="fa fa-user-plus fa-md"></i>Connect</a>
+                                                <a href="" class="btn btn-primary"><i class="fa fa-envelope fa-md"></i>Message</a>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">                                
+                            <div class="people text-center">
+                                <div>
+                                    <figure>
+                                        <div class="profile-pic">
+                                            <a href=""><img alt="profile image" src="../media/doctor2.png"> <i></i></a>
+                                        </div>
+                                        <figcaption>
+                                            <ul class="people-info">
+                                                <li class="name"><a href=""><b>Dr. Martin Sugar</b></a></li>
+                                                <li class="job">Psychiatrist</li>
+                                                <li class="location">Viena</li>
+                                            </ul>
+                                            <div class="viewinfo">						
+                                                <a href="" class="btn btn-primary"><i class="fa fa-user-plus fa-md"></i>Connect</a>
+                                                <a href="" class="btn btn-primary"><i class="fa fa-envelope fa-md"></i>Message</a>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">                                
+                            <div class="people text-center">
+                                <div>
+                                    <figure>
+                                        <div class="profile-pic">
+                                            <a href=""><img alt="profile image" src="../media/doctor3.png"> <i></i></a>
+                                        </div>
+                                        <figcaption>
+                                            <ul class="people-info">
+                                                <li class="name"><a href=""><b>Dr. Martin Sugar</b></a></li>
+                                                <li class="job">Psychiatrist</li>
+                                                <li class="location">Viena</li>
+                                            </ul>
+                                            <div class="viewinfo">						
+                                                <a href="" class="btn btn-primary"><i class="fa fa-user-plus fa-md"></i>Connect</a>
+                                                <a href="" class="btn btn-primary"><i class="fa fa-envelope fa-md"></i>Message</a>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">                                
+                            <div class="people text-center">
+                                <div>
+                                    <figure>
+                                        <div class="profile-pic">
+                                            <a href=""><img alt="profile image" src="../media/doctor4.png"> <i></i></a>
+                                        </div>
+                                        <figcaption>
+                                            <ul class="people-info">
+                                                <li class="name"><a href=""><b>Dr. Martin Sugar</b></a></li>
+                                                <li class="job">Psychiatrist</li>
+                                                <li class="location">Viena</li>
+                                            </ul>
+                                            <div class="viewinfo">						
+                                                <a href="" class="btn btn-primary"><i class="fa fa-user-plus fa-md"></i>Connect</a>
+                                                <a href="" class="btn btn-primary"><i class="fa fa-envelope fa-md"></i>Message</a>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="people text-center">
+                                <div>
+                                    <figure>
+                                        <div class="profile-pic">
+                                            <a href=""><img alt="profile image" src="../media/doctor1.png"> <i></i></a>
+                                        </div>
+                                        <figcaption>
+                                            <ul class="people-info">
+                                                <li class="name"><a href=""><b>Dr. Martin Sugar</b></a></li>
+                                                <li class="job">Psychiatrist</li>
+                                                <li class="location">Viena</li>
+                                            </ul>
+                                            <div class="viewinfo">						
+                                                <a href="" class="btn btn-primary"><i class="fa fa-user-plus fa-md"></i>Connect</a>
+                                                <a href="" class="btn btn-primary"><i class="fa fa-envelope fa-md"></i>Message</a>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">                                
+                            <div class="people text-center">
+                                <div>
+                                    <figure>
+                                        <div class="profile-pic">
+                                            <a href=""><img alt="profile image" src="../media/doctor2.png"> <i></i></a>
+                                        </div>
+                                        <figcaption>
+                                            <ul class="people-info">
+                                                <li class="name"><a href=""><b>Dr. Martin Sugar</b></a></li>
+                                                <li class="job">Psychiatrist</li>
+                                                <li class="location">Viena</li>
+                                            </ul>
+                                            <div class="viewinfo">						
+                                                <a href="" class="btn btn-primary"><i class="fa fa-user-plus fa-md"></i>Connect</a>
+                                                <a href="" class="btn btn-primary"><i class="fa fa-envelope fa-md"></i>Message</a>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">                                
+                            <div class="people text-center">
+                                <div>
+                                    <figure>
+                                        <div class="profile-pic">
+                                            <a href=""><img alt="profile image" src="../media/doctor3.png"> <i></i></a>
+                                        </div>
+                                        <figcaption>
+                                            <ul class="people-info">
+                                                <li class="name"><a href=""><b>Dr. Martin Sugar</b></a></li>
+                                                <li class="job">Psychiatrist</li>
+                                                <li class="location">Viena</li>
+                                            </ul>
+                                            <div class="viewinfo">						
+                                                <a href="" class="btn btn-primary"><i class="fa fa-user-plus fa-md"></i>Connect</a>
+                                                <a href="" class="btn btn-primary"><i class="fa fa-envelope fa-md"></i>Message</a>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">                                
+                            <div class="people text-center">
+                                <div>
+                                    <figure>
+                                        <div class="profile-pic">
+                                            <a href=""><img alt="profile image" src="../media/doctor4.png"> <i></i></a>
+                                        </div>
+                                        <figcaption>
+                                            <ul class="people-info">
+                                                <li class="name"><a href=""><b>Dr. Martin Sugar</b></a></li>
+                                                <li class="job">Psychiatrist</li>
+                                                <li class="location">Viena</li>
+                                            </ul>
+                                            <div class="viewinfo">						
+                                                <a href="" class="btn btn-primary"><i class="fa fa-user-plus fa-md"></i>Connect</a>
+                                                <a href="" class="btn btn-primary"><i class="fa fa-envelope fa-md"></i>Message</a>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+     
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,6 +820,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>
